@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #f1f1f1;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.slider {
+  width: 85vw;
+  max-width: 620px;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 5rem;
+  padding: 1rem 0;
+  position: relative;
+}
+
+.reviews {
+  margin-bottom: 4rem;
+}
+
+.reviews h2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.reviews span {
+  color: lightseagreen;
+  font-size: 0.85em;
+  margin-right: 1rem;
+}
+
+.img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  background: white;
+  padding: 0.25rem;
+  border: 1px solid lightgrey;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+h4 {
+  text-transform: uppercase;
+  margin: 0.5rem 0;
+  padding: 10px;
+  color: lightseagreen;
+  font-weight: 500;
+}
+
+.title {
+  font-size: 1rem;
+  margin-bottom: 1.25rem;
+  letter-spacing: 2px;
+  text-transform: capitalize;
+}
+p {
+  color: gray;
+}
+
+.text {
+  max-width: 40em;
+  line-height: 1.8rem;
+  margin: 0 auto;
+  letter-spacing: 1px;
+}
+
+.quote-icon {
+  font-size: 3rem;
+  color: lightseagreen;
+  margin-top: 2rem;
+}
+
+.btn {
+  position: absolute;
+  top: 175px;
+  background: grey;
+  color: white;
+  padding: 0.25rem 0.35rem;
+  border: transparent;
+  border-radius: 0.25rem;
+  cursor: pointer;
+}
+
+.next-btn {
+  right: -0.5rem;
+}
+
+.prev-btn {
+  left: -0.5rem;
+}
+
+@media screen and (min-width: 768px) {
+  .next-btn {
+    right: -5rem;
+  }
+
+  .prev-btn {
+    left: -5rem;
+  }
+
+  .btn {
+    font-size: 1.3rem;
+    padding: 0.35rem 0.5rem;
+  }
+
+  .quote-icon {
+    font-size: 4rem;
+  }
+}
